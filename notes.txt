@@ -1,0 +1,63 @@
+> yarn init
+
+> yarn add [package]
+> yarn add --dev
+> yarn add --peer
+> yarn add --optional
+
+> yarn upgrade
+> yarn upgrade [package]
+
+> yarn remove [package]
+
+> yarn
+> yarn install
+
+> yarn publish
+publishes a package to a package manager.
+
+> yarn remove
+removes an unused package from your current package.
+
+> yarn audit [--verbose] [--json]
+> yarn autoclean [-I/--init] [-F/--force]
+> yarn cache list [--pattern]
+> yarn check --integrity
+> yarn check --verify-tree
+
+> yarn create <starter-kit-package> [<args>]
+> yarn global add create-react-app
+
+> yarn global <add/bin/list/remove/upgrade> [--prefix]
+
+> yarn outdated
+
+> yarn run [script] [<args>]
+
+> yarn run test -o --watch
+
+
+scripts
+=======
+> yarn run build-project
+{
+  "scripts": {
+    "build-project": "node build-project.js"
+  }
+}
+
+
+
+
+
+npm vs yarn commands comparison
+===============================
+https://yarnpkg.com/en/docs/migrating-from-npm
+
+
+
+
+
+
+
+
